@@ -115,6 +115,59 @@
   font-size: 15px;
 }
 
+.carousel-description {
+  font-weight: 200;
+  color: #cfcfcf;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 46ch;
+}
+
+.carousel-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  width: fit-content;
+  font-size: 14px;
+  font-weight: 400;
+  color: #eae5ec;
+  text-decoration: none;
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.carousel-github:hover {
+  color: var(--accentColor);
+  border-color: var(--accentColor);
+  background: rgba(94, 234, 212, 0.1);
+}
+
+.carousel-media {
+  flex-shrink: 0;
+  width: 380px;
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.carousel-media:hover {
+  border-color: var(--accentColor);
+  transform: translateY(-4px);
+}
+
+.carousel-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* ── Navigation Arrows ── */
 .carousel-arrow {
   position: absolute;
@@ -278,6 +331,10 @@
   }
 
   .carousel-info {
+    width: 100%;
+  }
+
+  .carousel-media {
     width: 100%;
   }
 

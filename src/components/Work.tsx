@@ -1,32 +1,45 @@
 import { useState, useCallback } from "react";
 import "./styles/Work.css";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
+import { FiGithub } from "react-icons/fi";
 
 const projects = [
   {
-    title: "Conversational Q&A Chatbot",
+    title: "Multi-Agent GenAI Business Analytics System",
+    category: "Multi-Agent LangGraph App · Oct 2025 – Dec 2025",
+    tools: "LangGraph · Next.js · FastAPI · ChromaDB · RAGAS",
+    description:
+      "One prompt turns a raw dataset into a grounded data answer and a stakeholder deck, backed by a 4-provider LLM fallback chain for zero-downtime demos. Scored 0.86 retrieval precision on a 10-question RAGAS benchmark.",
+    github: "https://github.com/SoujxD/Multi-Agent-Project",
+    image: "/images/projects/multi-agent-project.png",
+  },
+  {
+    title: "Chat with SQL Database Using LangChain",
+    category: "Full-Stack Text-to-SQL App · Aug 2025 – Oct 2025",
+    tools: "React & TypeScript · FastAPI · Groq Llama 3.1 · Docker",
+    description:
+      "Turns plain-English questions into safe SQL via Groq Llama 3.1, deployed as 3 containerized services across SQLite, PostgreSQL, and MySQL. A guardrail blocks 21 dangerous keywords plus injection, enforcing read-only SELECT queries.",
+    github: "https://github.com/SoujxD/Chat-with-SQL-database",
+    image: "/images/projects/chat-with-sql-database.png",
+  },
+  {
+    title: "RAG-Based Document Q&A System",
+    category: "Retrieval-Augmented Generation Pipeline · Nov 2025 – Jan 2026",
+    tools: "LangChain · FAISS · Hugging Face Embeddings",
+    description:
+      "An end-to-end RAG pipeline with history-aware query reformulation, answering domain-specific questions from a large document set while curbing hallucinations by constraining answers to retrieved source text.",
+    github: "https://github.com/SoujxD/4-RAG-Document-QnA",
+    image: "/images/projects/rag-document-qna.png",
+  },
+  {
+    title: "Conversational Q&A Chatbot with Chat History",
     category: "End-to-End LLM Chatbot with Memory",
-    tools: "LangChain · Python · LLM APIs · Prompt Engineering",
-  },
-  {
-    title: "RAG Document Q&A System",
-    category: "Retrieval-Augmented Generation Pipeline",
-    tools: "LangChain · FAISS / Chroma · Vector Embeddings",
-  },
-  {
-    title: "Store Sales Forecasting",
-    category: "Kaggle Competition",
-    tools: "Python · ARIMA · SARIMA · Spark · Scikit-learn",
-  },
-  {
-    title: "Diabetes Prediction on GCP",
-    category: "AutoML & Custom Model Deployment",
-    tools: "XGBoost · BigQuery · Vertex AI · SHAP",
-  },
-  {
-    title: "Healthcare Waiting List Analysis",
-    category: "BI Analytics Dashboard",
-    tools: "Power BI · SQL · PostgreSQL",
+    tools: "LangChain · Streamlit · OpenAI · Ollama",
+    description:
+      "A collection of Q&A chatbot apps wiring different LLM backends, OpenAI and local Ollama models, behind a chat UI with persistent conversation history.",
+    github:
+      "https://github.com/SoujxD/Conversational-QnA-Chatbot-with-Chat-History",
+    image: "/images/projects/conversational-qna-chatbot.png",
   },
 ];
 
@@ -77,12 +90,29 @@ const Work = () => {
                       <div className="carousel-details">
                         <h4>{project.title}</h4>
                         <p className="carousel-category">{project.category}</p>
+                        <p className="carousel-description">{project.description}</p>
                         <div className="carousel-tools">
                           <span className="tools-label">Tools & Stack</span>
                           <p>{project.tools}</p>
                         </div>
+                        <a
+                          className="carousel-github"
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <FiGithub /> View on GitHub
+                        </a>
                       </div>
                     </div>
+                    <a
+                      className="carousel-media"
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={project.image} alt={`${project.title} repository screenshot`} />
+                    </a>
                   </div>
                 </div>
               ))}

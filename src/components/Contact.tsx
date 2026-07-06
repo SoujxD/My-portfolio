@@ -11,8 +11,8 @@ const Contact = () => {
             <h4>Connect</h4>
             <div className="contact-stack">
               <p>
-                <a href="mailto:soujanya@usc.edu" data-cursor="disable">
-                  soujanya@usc.edu
+                <a href="mailto:soujanyachavan25@gmail.com" data-cursor="disable">
+                  soujanyachavan25@gmail.com
                 </a>
               </p>
               <p>
@@ -31,7 +31,7 @@ const Contact = () => {
             <a href="https://www.linkedin.com/in/soujanya-chavan" target="_blank" rel="noreferrer" data-cursor="disable" className="contact-social">
               LinkedIn <MdArrowOutward />
             </a>
-            <a href="mailto:soujanya@usc.edu" data-cursor="disable" className="contact-social">
+            <a href="mailto:soujanyachavan25@gmail.com" data-cursor="disable" className="contact-social">
               Email <MdArrowOutward />
             </a>
           </div>
@@ -39,7 +39,7 @@ const Contact = () => {
             <h4>Based in</h4>
             <div className="contact-stack">
               <p>Los Angeles, California</p>
-              <p>Open to Data Science, ML, and GenAI roles</p>
+              <p>Open to Data Science, ML, AI Engineer, and AI Software Engineering roles</p>
             </div>
           </div>
         </div>

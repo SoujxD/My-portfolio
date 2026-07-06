@@ -15,31 +15,17 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Data Science Coursework Evaluator</h4>
-                <h5>USC Marshall School of Business</h5>
-              </div>
-              <h3>2026</h3>
-            </div>
-            <p>
-              Jan 2026 – May 2026. Evaluated 140+ analytics projects covering
-              hypothesis testing, regression, and visualization; delivered
-              structured feedback improving statistical rigor and business
-              interpretability.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>AI Engineer / Data Science Intern</h4>
+                <h4>AI Engineer Intern</h4>
                 <h5>Borealis Group Analytics</h5>
               </div>
               <h3>2025</h3>
             </div>
             <p>
-              Jul 2025 – Dec 2025. Built OLS/GLM trade-flow models with 76%
-              directional accuracy across 50+ countries; engineered 30+ years of
-              macroeconomic data and integrated structured model outputs into
-              LLM-driven analytics workflows.
+              Jul 2025 – Dec 2025. Built a LangChain multi-agent Research
+              Copilot with MCP orchestration and typed tool schemas, cutting
+              tool-routing failures from 22% to 9% across 300 queries. Raised
+              RAGAS answer faithfulness from 0.71 to 0.86 and context
+              precision from 0.64 to 0.81.
             </p>
           </div>
           <div className="career-info-box">
@@ -51,9 +37,11 @@ const Career = () => {
               <h3>2024–25</h3>
             </div>
             <p>
-              Oct 2024 – Jan 2025. Processed 50K+ tweets/month to build scalable
-              NLP datasets; trained transformer models achieving 86% influence
-              classification accuracy for U.S. election analysis.
+              Oct 2024 – May 2025. Built the React frontend and FastAPI
+              backend researchers used to explore 50K+ records a month,
+              cutting dashboard load time from 2.8s to 1.1s. Fine-tuned
+              RoBERTa with PEFT/LoRA, lifting held-out accuracy from 78% to
+              86%.
             </p>
           </div>
           <div className="career-info-box">
@@ -65,10 +53,11 @@ const Career = () => {
               <h3>2023–24</h3>
             </div>
             <p>
-              Aug 2023 – Jun 2024. Built ML pipelines on AR/VR telemetry data;
-              ran A/B experiments improving AR feature adoption by 17% and
-              automated feature engineering workflows reducing manual analysis
-              by 50%.
+              Aug 2023 – Jun 2024. Deployed Dockerized ML services on Azure
+              turning AR/VR session data into live signals on sentiment and
+              feature adoption. Hardened the codebase with unit tests and
+              GitHub Actions CI, lifting onboarding task success from 63% to
+              80%.
             </p>
           </div>
         </div>

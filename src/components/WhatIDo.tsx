@@ -87,20 +87,20 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>ML &amp; GENAI</h3>
-              <h4>Transformers, RAG & LLM Pipelines</h4>
+              <h3>GENAI &amp; AGENTS</h3>
+              <h4>Multi-Agent Systems &amp; RAG Pipelines</h4>
               <p>
-                I build and fine-tune transformer models and design RAG pipelines,
-                conversational chatbots, and LLM-powered analytics workflows —
-                grounded, evaluated, and production-ready.
+                I design multi-agent LLM systems with LangChain and LangGraph,
+                wiring MCP orchestration and grounding them with RAG
+                pipelines benchmarked on RAGAS.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">PyTorch</div>
+                <div className="what-tags">LangChain &amp; LangGraph</div>
+                <div className="what-tags">MCP Orchestration</div>
+                <div className="what-tags">RAG &amp; RAGAS</div>
+                <div className="what-tags">FAISS &amp; ChromaDB</div>
                 <div className="what-tags">Hugging Face</div>
-                <div className="what-tags">LangChain</div>
-                <div className="what-tags">FAISS &amp; Chroma</div>
-                <div className="what-tags">AWS Bedrock</div>
                 <div className="what-tags">BERT / RoBERTa</div>
               </div>
               <div className="what-arrow"></div>
@@ -125,22 +125,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DATA &amp; ANALYTICS</h3>
-              <h4>Pipelines, Forecasting & Dashboards</h4>
+              <h3>BACKEND &amp; MLOPS</h3>
+              <h4>APIs, Pipelines &amp; Cloud Deployment</h4>
               <p>
-                Scalable ETL/ELT, cloud ML workflows, statistical forecasting,
-                and executive dashboards that connect rigorous ML outputs to
-                real business decisions.
+                I build production backends with FastAPI and SQL, then
+                containerize and ship them through Docker and CI/CD on AWS
+                and Azure.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Python &amp; SQL</div>
-                <div className="what-tags">PySpark</div>
-                <div className="what-tags">Snowflake</div>
-                <div className="what-tags">BigQuery</div>
-                <div className="what-tags">Vertex AI</div>
-                <div className="what-tags">Tableau &amp; Power BI</div>
-                <div className="what-tags">Airflow</div>
+                <div className="what-tags">Python &amp; FastAPI</div>
+                <div className="what-tags">PostgreSQL &amp; SQL</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">GitHub Actions CI/CD</div>
+                <div className="what-tags">AWS &amp; Azure</div>
+                <div className="what-tags">React &amp; TypeScript</div>
               </div>
               <div className="what-arrow"></div>
             </div>
